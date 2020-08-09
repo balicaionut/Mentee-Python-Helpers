@@ -108,7 +108,7 @@ class Checker:
             if initial_points == self.points:
                 print("It seems you haven't scored any points in square up. Maybe check if you are returning any results?")
         except:
-            print("ERROR: There is a problem with your multiply function. "
+            print("ERROR: There is a problem with your square function. "
                   "Check to see if it is defined correctly.")
 
     def show_score(self):
